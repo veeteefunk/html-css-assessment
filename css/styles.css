@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EDEFEE;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 120px;
+}
+
+nav {
+    background: #fb898d;    ;
+    padding: 1.2rem 0;
+    border-radius: 15px;
+    margin: 2rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+}
+
+main .promo-row {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+    url('../bg-banner.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 11.6rem;
+    border-radius: 15px;
+}
+
+main .promo-cell h1,
+main .promo-cell p {
+    color: white;
+}
+
+main .promo-cell h1 {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+main .promo-cell p {
+    margin-top: 0.4rem;
+    margin-left: 2rem;
+}
+
+main .info-row {
+    background-color: #fb898d;
+    margin: 2rem 0;
+    border-radius: 15px;
+    color: white;
+}
+
+main .info-col {
+    margin: 1rem;
+}
+
+main .info-col h3 {
+    margin-bottom: 1rem;
+}
+
+main .info-col p {
+    font-size: .9rem;
+    text-align: justify;
+}
+
+main .info-col img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100%;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 4rem;
+    border-radius: 15px;
+}
+
+footer div img {
+    height: 20px;
+    margin-left: 1.8rem;
+}
+
+footer div p {
+    color: #c66733;
+    text-align: right;
+    margin-right: 1.8rem;
+}
